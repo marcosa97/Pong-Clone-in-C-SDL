@@ -11,3 +11,7 @@ This project depends on:
 -SDL2_Image extension library
 
 I created all title screens in Photoshop CS6.
+
+![alt text](https://github.com/marcosa97/Pong-Clone-in-C-SDL/blob/master/Screenshot%20(79).png)
+![alt text](https://github.com/marcosa97/Pong-Clone-in-C-SDL/blob/master/Screenshot%20(81).png)
+![alt text](https://github.com/marcosa97/Pong-Clone-in-C-SDL/blob/master/Screenshot%20(82).png)
