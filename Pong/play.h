@@ -4,6 +4,7 @@
 #define PLAY_H
 
 #include <stdlib.h> //for random number generator and itoa()
+#include <stdio.h> //for snprintf() 
 #include <ctime> //to seed random number 
 #include <sstream>
 

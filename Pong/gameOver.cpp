@@ -1,7 +1,7 @@
 #include "gameOver.h"
 
 GameOver::GameOver(Graphics &graphics) {
-	if (!gameOverMessage.loadFromFile(graphics, "assets/images/Pong Game over.png"))
+	if (!gameOverMessage.loadFromFile(graphics, "assets/images/PongGameOver.png"))
 		printf("Failed to load Title Screen!\n");
 	nextStateID = STATE_NULL;
 

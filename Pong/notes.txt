@@ -1,0 +1,80 @@
+Dependencies:
+
+main.cpp:
+	#include <stdio.h>
+	#include "game.h"
+	#include "gameState.h"
+
+game.cpp:
+	#include game.h
+
+gameOver.cpp:
+	#include "gameOver.h"
+
+graphics.cpp:
+	#include "graphics.h"
+	#include "texture.h"
+
+intro.cpp:
+	#include "intro.h"
+
+play.cpp:
+	#include "play.h"
+
+texture.cpp:
+	#include "texture.h"
+	#include "graphics.h"
+
+timer.cpp:
+	#include "timer.h"
+
+title.cpp:
+	#include "title.h"
+
+game.h:
+	#include "graphics.h"
+	#include "gameState.h"
+	#include "intro.h"
+	#include "title.h"
+	#include "play.h"
+	#include "gameOver.h"
+	#include "timer.h"
+
+gameOver.h:
+	#include "gameState.h"
+	#include "texture.h"
+	#include "timer.h"
+
+gameState.h:
+	#include "SDL.h" 
+
+graphics.h:
+	#include <stdio.h>
+	#include "SDL.h"
+	#include "SDL_image.h"
+
+intro.h:
+	#include "texture.h"
+	#include "gameState.h"
+
+play.h:
+	#include <stdlib.h> //for random number generator and itoa()
+	#include <ctime> //to seed random number 
+	#include <sstream>
+	#include "gameState.h"
+	#include "texture.h"
+	#include "graphics.h" //Needed for declareWinner(graphics)
+	#include "timer.h"
+
+texture.h:
+	#include <stdio.h>
+	#include "SDL.h"
+	#include "SDL_image.h"
+	#include "SDL_ttf.h"
+
+timer.h:
+	#include "SDL.h"
+
+title.h:
+	#include "gameState.h"
+	#include "texture.h"

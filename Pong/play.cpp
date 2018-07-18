@@ -14,7 +14,7 @@ void Play::setUpPaddles() {
 	//Set starting positions and dimensions for objects on the screen
 	PlayerPaddle.h = 100;
 	PlayerPaddle.w = 20;
-    PlayerPaddle.x = 20;
+        PlayerPaddle.x = 20;
 	PlayerPaddle.y = SCREEN_HEIGHT/2 - (PlayerPaddle.h/2);
 
 	AIPaddle.h = 100;
@@ -51,7 +51,8 @@ void Play::resetBall() {
 void Play::loadPlayerScore(Graphics &graphics) {
 	char buffer[5];
 
-	_itoa_s(playerScore, buffer, 5, 10);
+	//_itoa_s(playerScore, buffer, 5, 10);
+        snprintf(buffer, sizeof(buffer), "%d", playerScore);
 
 	if (!PlayerScoreTexture.loadTextFromString(graphics, buffer,
 		timesNewRoman, textColor))
@@ -64,7 +65,8 @@ void Play::loadPlayerScore(Graphics &graphics) {
 void Play::loadAIScore(Graphics &graphics) {
 	char buffer[5];
 
-	_itoa_s(AIScore, buffer, 5, 10);
+	//_itoa_s(AIScore, buffer, 5, 10);
+        snprintf(buffer, sizeof(buffer), "%d", AIScore);
 
 	if (!AIScoreTexture.loadTextFromString(graphics, buffer,
 		timesNewRoman, textColor))
