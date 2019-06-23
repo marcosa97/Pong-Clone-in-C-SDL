@@ -2,7 +2,7 @@
 
 Author: Marcos Alcantar
 
-My second game in C++ (NOT C) using the SDL2 (Simple DirectMedia Layer) development library. 
+My second game in C++ using the SDL2 (Simple DirectMedia Layer) development library. 
 Basic 1 Player Pong Clone for learning basic game dev concepts.
 
 This project depends on:
