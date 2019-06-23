@@ -1,4 +1,4 @@
-# Pong-Clone-in-C-SDL
+# Pong Clone in C++ SDL
 
 Author: Marcos Alcantar
 
